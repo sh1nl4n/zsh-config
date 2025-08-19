@@ -9,7 +9,5 @@ sudo pacman -S zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-h
 ### Install
 
 ```bash
-cp -r zsh ~/.config/
-cp zshrc ~/.zshrc
-chsh -s /usr/bin/zsh
+./install.sh
 ```
