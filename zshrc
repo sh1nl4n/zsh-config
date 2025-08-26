@@ -147,6 +147,7 @@ alias cat="bat --theme=base16"
 alias ls='eza --icons=always --color=always -a'
 alias ll='eza --icons=always --color=always -la'
 alias c="codium"
+alias zed="zeditor"
 
 alias -g NN='&>/dev/null'
 alias -g L='|less'
@@ -157,3 +158,4 @@ alias -g COPY="|xclip -selection clipboard"
 #  ├─┤│ │ │ │ │  └─┐ │ ├─┤├┬┘ │
 #  ┴ ┴└─┘ ┴ └─┘  └─┘ ┴ ┴ ┴┴└─ ┴
 # $HOME/.local/bin/colorscript -r
+disable-fzf-tab
